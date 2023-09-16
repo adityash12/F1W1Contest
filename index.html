@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Rajsthan</title>
+    <link rel="icon" href="./star.png.png" />
+
+    <style>
+      .nav {
+        border: 1px solid blue;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        padding: 4px;
+      }
+      img {
+        width: 500px;
+        height: 500px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!--header tag-->
+    <header>
+      <h1>Jaipur</h1>
+      <p>Welcome to pink city Jaipur!</p>
+    </header>
+    <!--nav tag-->
+    <nav>
+      <span><a href="#Description" class="nav">Description</a></span>
+      <span><a href="#Attraction" class="nav">Attractions</a></span>
+      <span><a href="#Statistics" class="nav">Statistics</a></span>
+      <span><a href="#Feedback" class="nav">Feedback</a></span>
+      <span><a href="#Quotes" class="nav">Quotes</a></span>
+      <span><a href="#contact" class="con">Contact</a></span>
+    </nav>
+    <!--City Description-->
+    <section id="Description">
+      <h2>Discover Jaipur</h2>
+
+      <img src="./jaipur.jpg.jpg" alt="jaipurImage" />
+
+      <p>
+        Jaipur is the capital of India’s Rajasthan state. It evokes the royal
+        family that once ruled the region and that, in 1727, founded what is now
+        called the Old City, or “Pink City” for its trademark building color. At
+        the center of its stately street grid (notable in India) stands the
+        opulent, colonnaded City Palace complex. With gardens, courtyards and
+        museums, part of it is still a royal residence
+      </p>
+    </section>
+    <hr />
+    <!--Attractions:-->
+    <section id="Attraction">
+      <h2>Attractions</h2>
+      <h3>Main Attractions</h3>
+
+      <ol>
+        <li>Hawa mahal</li>
+        <li>Jantar Mantar</li>
+        <li>Jal Mahal</li>
+      </ol>
+      <h3>Local Favourites</h3>
+      <ul>
+        <li>Chokhi Dhani</li>
+        <li>Galtaji Temple</li>
+        <li>
+          Birla Mandir
+          <ul type="circle">
+            <li>Jaipur Zoo</li>
+            <li>Dolls Museum</li>
+            <li>Albert Hall Museum</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+    </section>
+    <!--City Statistics:-->
+    <section id="Statistics">
+      <h2>City Statistics</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Population</td>
+            <td>5 Million</td>
+          </tr>
+          <tr>
+            <td>Landmarks</td>
+            <td>25</td>
+          </tr>
+
+          <tr>
+            <td>Parks</td>
+            <td>50</td>
+          </tr>
+
+          <tr>
+            <td>School</td>
+            <td>350</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr />
+    <!--Citizen Feedback:-->
+    <section id="Feedback">
+      <h2>Feedback</h2>
+      <!--form start-->
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required /> <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required /> <br />
+        <label for="age">Age:</label>
+        <input type="number" id="age" required style="width: 40px" /> <br />
+        <label for="name">Favourite Attraction:</label>
+        <select name="" id="">
+          <option value="amber fort">Amber Fort</option>
+          <option value="city place">City Palace</option>
+          <option value="jaigrah">Jaigarh Fort</option>
+        </select>
+        <br />
+        <label for="">Comments:</label>
+        <textarea name="" id="" cols="20" rows="2"></textarea>
+        <br />
+        <label for="">Newsletter:</label>
+        <input type="checkbox" />
+
+        <span>Subscribe to our newsletter</span>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+      <!--form end-->
+    </section>
+    <hr />
+    <!--Quotes from Citizens:-->
+    <section id="Quotes">
+      <h2>What Citizens Say</h2>
+      <p>
+        "Jaipur is one of my favourite place. Everything about the place is
+        beautiful royal classic colourful and extreamly positive" - Aditya
+      </p>
+      <p>
+        "I love the place and I am pretty sure anyone who visits the place would
+        fall in love with the place tooo"-Richa
+      </p>
+      <hr>
+    </section>
+    <!--footer tag-->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: City Palace,<br> Maharaja Sawai Man Singh II Museum, Tripolia Bazar, Jaipur<br> Rajasthan 302002
+        <br>Phone: 081072 00344 <br>E-Mail: <a href=""> croho.rtdc@rajasthan.gov.in</a></p>
+        <p>	&#169; 2023 Rajasthan Tourism, Dive into Dreams!</p>
+       
+    </footer>
+
+  </body>
+</html>
